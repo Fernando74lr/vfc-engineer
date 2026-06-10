@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
     "@react-navigation/native": "^7.3.0",
     "@react-navigation/native-stack": "^7.17.1",
     "expo": "~56.0.9",
@@ -12,13 +13,16 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "prettier": "^3.6.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "engines": {
     "node": "^22.13.0"
