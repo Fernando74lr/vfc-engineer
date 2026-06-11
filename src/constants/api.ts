@@ -10,4 +10,4 @@
  * Keep the trailing slash so relative endpoint paths concatenate consistently.
  * @const {string}
  */
-export const VFC_API_URL = 'https://datagram-m2.com/vfc/';
+export const VFC_API_URL = 'https://datagram-m2.com/vfc/api/';
