@@ -5,6 +5,9 @@ import { MAIN_COLOR } from '../../../constants/colors';
  * Provides styles for the login screen layout and controls.
  */
 export const styles = StyleSheet.create({
+	header: {
+		alignItems: 'center',
+	},
 	screen: {
 		flex: 1,
 		backgroundColor: '#f1f3f6',

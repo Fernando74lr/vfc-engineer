@@ -46,16 +46,18 @@ export const LoginScreen = (): JSX.Element => {
 	return (
 		<SafeAreaView style={styles.screen}>
 			<View style={styles.card}>
-				<Image
-					source={{ uri: LOGO_SOURCE }}
-					style={styles.logo}
-					resizeMode="contain"
-				/>
+				<View style={styles.header}>
+					<Image
+						source={{ uri: LOGO_SOURCE }}
+						style={styles.logo}
+						resizeMode="contain"
+					/>
 
-				<Text style={styles.title}>
-					<Text style={styles.titleAccent}>VFC</Text> Engineer
-				</Text>
-				<Text style={styles.subtitle}>Herramientas internas.</Text>
+					<Text style={styles.title}>
+						<Text style={styles.titleAccent}>VFC</Text> Engineer
+					</Text>
+					<Text style={styles.subtitle}>Herramientas internas.</Text>
+				</View>
 
 				<View style={styles.formSection}>
 					<Text style={styles.label}>Correo electrónico</Text>
