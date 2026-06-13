@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Fragment, JSX } from 'react';
-import { AppNavigator } from './src/navigation/Appnavigator';
+import { AppNavigator } from './src/navigation/AppNavigator';
 
 /**
  * Renders the root application view.
